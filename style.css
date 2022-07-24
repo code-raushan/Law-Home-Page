@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.banner{
+    /* margin-top: 0; */
+   
+    padding: 30px 80px 60px 80px;
+    background-color: #2B2922;
+    /* height: 60vh; */
+    font-family: Montserrat;
+}
+.navbar{
+    /* margin: 20px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 2.5em;
+    font-size: 1em;
+    color: #AAA9A5;
+    margin-left: 400px;
+    
+}
+.list-item:nth-child(1){
+    color: white;
+    font-weight: 900;
+}
+.list-item:hover{
+    cursor: pointer;
+}
+.btn{
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.75em 1.5em;
+    background-color: #2B2922;
+    color: #6C612D;
+    border: 1px solid #6C612D;
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+}
+
+.cols{
+    display: flex;
+    align-items: center;
+    
+}
+.col1{
+    width: 50vw;
+    color: white;
+    font-size: 1.75em;
+    padding-right: 80px;
+    font-weight: 900;
+}
+.col2{
+    width: 50vw;
+    color: #AAA9A5;
+    padding-left: 180px;
+    font-size: 20px;
+}
